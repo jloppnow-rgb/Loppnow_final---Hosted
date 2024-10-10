@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GIT215 Resort Final</title>
+        <meta name="author" content="Jon Loppnow">
+        <meta name="description" content="index file for GIT215 final project">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/wib3kuw.css">
+        
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <h1>Pine Alps Chalet</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a *</p>
+                <img src="images/swiss-sunset.jpg" alt="a sunset over a swiss valley with mountains in the background">
+                <form action=" https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="full-name">Full Name*</label>
+                    <input type="text" name="full-name" id="full-name" required>
+                    <label for="e-mail">E-mail Adress*</label>
+                    <input type="text" name="e-mail" id="e-mail" required>
+                    <label for="phone">Phone Number*</label>
+                    <input type="number" name="phone" id="phone" required>
+                    <fieldset>
+                    <legend>Prefered Method of Contact</legend>
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    <label for="my-comments">Comments</label>
+			        <textarea name="my-comments" id="my-comments"></textarea>
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright&copy; 2024 Pine Alps Chalet</p>
+            <p>For educational purposes only</p>
+        </footer>
+    </body>
+</html>
